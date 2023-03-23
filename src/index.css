@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+height: 704px;
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.nav{
+
+height: 100px;
+background: #F55A5A;
+display: flex;
+margin: 0px
+
+}
+.proj-title{
+  margin: auto 0px auto 0px
+}
+.title{
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: auto;
+  
+  
+}
+
+
+.world-icon{
+height: 100px;
+width: 175px;
+display: block;
+margin:-5px 0px;
+
+
+}
+
+.nav p{
+font-family: 'Inter';
+font-weight: 300;
+font-size:20px;
+letter-spacing: -0.075em;
+color: #FFFFFF;
+margin: 40px 20px 0px 40px;
+}
+
+.place-img{
+height: 323px;
+width: 250px;
+left: 40px;
+border-radius: 5px;
+
+}
+.location-logo{
+height: 9.545454025268555px;
+width: 7px;
+}
+
+.location{
+  display: flex;
+
+  
+}
+.location p{
+margin: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+
+}
+.d-card{
+   display: flex;
+   margin-top: 30px; 
+   padding: 0px 0px 20px 0px;
+   border-bottom: 2px solid #F5F5F5;
+   
+  }
+
+a{
+width: 106px;
+height: 13px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+.writeup{
+  
+   margin: auto 50px
+  
+}
+.description{
+}
+.description h3{
+  margin: 0px;
+  font-size: 30px;
+  
+} 
+.description p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #2B283A;
+
+}
+.description-txt{
+  margin:0px;
+}
+.description-date{
+  margin: 10px 0px 4px 0px
+}
+
+.cards-list{
+  padding: 20px 40px 40px 40px;
+}
+.register-btn{
+    background-color:  #F55A5A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 250px;
+    margin-top: 20px;
+  }
+
+
+.Brief-btn{
+   background-color:  #b66a6a; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 250px;
+    margin-top: 20px;
+
+}
+
+.compe-logo{
+height: 130px;
+width: 205px;
+display:block;
+margin: 0px auto -30px auto;
+
 }
